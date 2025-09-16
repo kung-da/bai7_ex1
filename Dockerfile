@@ -18,7 +18,8 @@ WORKDIR /usr/local/tomcat/webapps/
 RUN rm -rf ROOT
 
 # Copy file WAR đã build sang ROOT.war
-COPY --from=build /app/target/*.war ./ROOT.war
+COPY --from=build /app/target/*.war ./ch7_ex1.war
+
 
 # Expose port
 EXPOSE 8080
