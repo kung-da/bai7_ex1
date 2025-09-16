@@ -1,0 +1,98 @@
+/* Styles cho các phần tử cơ bản */
+body {
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    margin: 2em auto;
+    max-width: 600px;
+    background: #fff5f5;
+    color: #333;
+    line-height: 1.5;
+}
+h1 {
+    font-size: 150%;
+    color: #b30000;
+    text-align: center;
+    border-bottom: 2px solid #b30000;
+    padding-bottom: 0.3em;
+    margin-bottom: 1em;
+}
+h2 {
+    font-size: 120%;
+    color: #b30000;
+    margin-bottom: 0.8em;
+}
+
+/* Form labels & inputs */
+label {
+    float: left;
+    width: 7em;
+    margin-bottom: 0.7em;
+    font-weight: bold;
+    color: #b30000;
+}
+input[type="text"],
+input[type="email"] {
+    width: 18em;
+    margin-left: 0.5em;
+    margin-bottom: 0.7em;
+    padding: 0.4em;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+input[type="text"]:focus,
+input[type="email"]:focus {
+    border-color: #e60000;
+    box-shadow: 0 0 5px rgba(230,0,0,0.4);
+    outline: none;
+}
+span {
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+    display: inline-block;
+}
+br {
+    clear: both;
+}
+
+/* Styles cho bảng */
+table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    width: 100%;
+    background: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-top: 1em;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+th, td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 0.6em 0.8em;
+}
+th {
+    background: #b30000;
+    color: #fff;
+    font-weight: bold;
+}
+tr:nth-child(even) {
+    background: #f9f9f9;
+}
+tr:hover {
+    background: #ffe6e6;
+}
+
+/* Utility classes */
+.pad_top {
+    padding-top: 0.25em;
+}
+.margin_left {
+    margin-left: 0.5em;
+}
+.align_left {
+    text-align: left;
+}
+.align_right {
+    text-align: right;
+}
